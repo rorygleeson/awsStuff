@@ -1,5 +1,5 @@
 <?php
-$servername = "mydatabase.xxxxxxxxxxxx.xx-xxxxxxx-x.rds.amazonaws.com";
+$servername = "xxxxxx.xxxxxxxxxxxx.xx-xxxxxxx-x.rds.amazonaws.com";
 $username = "xxxxxxx";
 $password = "xxxxxxx";
 $dbname = "CustomerOrders";
