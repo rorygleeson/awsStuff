@@ -7,6 +7,6 @@ amazon-linux-extras enable php7.4
 yum clean metadata
 yum install -y php-cli php-pdo php-fpm php-json php-mysqlnd 
 systemctl restart httpd.service
-aws s3 cp s3://roryscode/index.php /var/www/html/index.php
+aws s3 cp s3://<bucketName>/index.php /var/www/html/index.php
 amazon-linux-extras install -y epel
 yum install -y stress
